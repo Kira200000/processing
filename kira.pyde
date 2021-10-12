@@ -1,0 +1,6 @@
+size(700,600)
+rect(150,250,400,190) 
+strokeWeight(120)
+point(250,450)
+strokeWeight(140)
+point(440,450)
