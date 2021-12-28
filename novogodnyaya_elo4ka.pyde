@@ -1,0 +1,23 @@
+x = 0
+def setup():
+    size(600,600)
+    frameRate(10)
+    background(10)
+    colorMode(HSB,360,100,100)
+    push()
+    translate(0,-100)
+    fill(120,76,55)
+    stroke(120,76,55)
+    triangle(200,300, 300,200, 400,300)
+    translate(0,100)
+    triangle(200,300, 300,200, 400,300)
+    translate(0,100)
+    triangle(200,300, 300,200, 400,300)
+    pop()
+    fill(43,94,72)
+    stroke(43,94,72)
+    rect(280,400, 40,90)
+def draw():
+    stroke(random(0,360),random(0,100),100)
+    strokeWeight(10)
+    point(random(0,600),random(0,600))
