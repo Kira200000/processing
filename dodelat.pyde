@@ -15,6 +15,10 @@ def draw():
           line(310,170, 320,160)
         elif mouseButton == RIGHT:
           background(200)
-          ellipse(300,200, 20,20)
+          size(600,600)
+          ellipse(300,300, 100,100)
+          ellipse(280,290, 20,20)
+          ellipse(320,290, 20,20)
+          line(290,280, 270,270)
     else:
         background(200)
